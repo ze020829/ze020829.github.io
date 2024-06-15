@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+
+
+
+    <meta name="keywords" content=""/>
+
+
+
+    <meta name="description" content="readme项目仓库：https://github.com/FBCD1012/DinosaurFactory.git
+时间太少，只是做了个大概。实现一个恐龙工厂的nft交易市场，现在具有孵化，上架恐龙，下架恐龙等功能。集成了elasticSearch实现搜索功能，MongoDB用于作为hard..."/>
+
+
+<meta name="Robots" content="all">
+
+
+    <title>Hexo</title>
+
+
+<link rel="icon" href="/images/1.jpg">
+
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="/css/atom-one-dark.css">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+<meta name="generator" content="Hexo 7.0.0"></head>
+<body>
+    <div class="main-container">
+        <header class="header">
+    <div class="global-width">
+        <nav class="nav-box">
+            
+                <a class="nav-item" href="/"
+                
+                >首页</a>
+            
+                <a class="nav-item" href="/resume"
+                
+                >简历</a>
+            
+                <a class="nav-item" href="/mood"
+                
+                   target="_blank"
+                
+                >心情</a>
+            
+                <a class="nav-item" href="/amusement/tetris"
+                
+                   target="_blank"
+                
+                >娱乐</a>
+            
+                <a class="nav-item" href="/about"
+                
+                >相关</a>
+            
+        </nav>
+    </div>
+</header>
+
+        <section class="content global-width">
+            <div class="main">
+                <article class="box post">
+    <div class="post-title align-center detail-title"></div>
+    <div class="post-meta align-center">
+        
+        <i class="fa fa-calendar"></i> <time>2024-06-15</time>
+        <span class="dotted">|</span>
+        <i class="fa fa-user"></i> 
+        
+    </div>
+
+    <div class="post-content">
+        <h1 id="readme"><a href="#readme" class="headerlink" title="readme"></a>readme</h1><p>项目仓库：<a target="_blank" rel="noopener" href="https://github.com/FBCD1012/DinosaurFactory.git">https://github.com/FBCD1012/DinosaurFactory.git</a></p>
+<p>时间太少，只是做了个大概。实现一个恐龙工厂的nft交易市场，现在具有孵化，上架恐龙，下架恐龙等功能。集成了elasticSearch实现搜索功能，MongoDB用于作为hardhat私链数据的缓存 ，elasticSearch作为MongoDB的缓存。 我们使用 java-jdk17 来编写此背景代码 我们的技术栈是SpringBoot3，ElasticSearch，Mysql，web3j，okhttp，Thymeleaf，JPA，blackChain（private）+hardhat，我们的技术栈将继续增长，但是我们临时的基本骨架是这样的…… 我们的目标是打造一个 NFT 交易市场。</p>
+<p>#主页面</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps1.jpg" alt="img"> </p>
+<p>##顶部栏</p>
+<p>左上角logo点击会返回主页面</p>
+<p>Github repository导向项目仓库</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps2.jpg" alt="img"> </p>
+<p>FAQ前往的是页面下方的问答</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps3.jpg" alt="img"> </p>
+<p>##卡面展示</p>
+<p>在主页下方有展示</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps32.jpg" alt="img"> </p>
+<p>点击buy会先进入市场</p>
+<p>点击页面底部的按钮会回到页面顶部</p>
+<p>Connect Wallet是连接metamask</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps4.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps5.jpg" alt="img"> </p>
+<p>这是连接成功的展示。</p>
+<p>当我没有连接时：</p>
+<h2 id="mynft和market"><a href="#mynft和market" class="headerlink" title="mynft和market"></a>mynft和market</h2><p><img src="C:\Users\微风\AppData\Roaming\Typora\typora-user-images\image-20240613120717559.png" alt="image-20240613120717559"></p>
+<p>我点击首页MyNft按钮，效果如下，提醒你登录，点击就返回主页面<img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps6.jpg" alt="img"></p>
+<p>#个人界面</p>
+<p>连接钱包后点击mynft按钮</p>
+<p>##免费获取两个蛋</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps7.jpg" alt="img"> </p>
+<p>因为我现在什么都没有，所有下面有提示我可以获取两个免费的蛋，点击后进入你的世界，只有在该页面下才可进行孵化，上架，下架，繁殖等操作。</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps8.jpg" alt="img"> </p>
+<p>##孵化</p>
+<p>点击hatch，开始孵化倒计时。</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps9.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps10.jpg" alt="img"> </p>
+<p>##获取恐龙nft</p>
+<p>页面下拉，点击按钮即可获得你的恐龙nft</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps11.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps12.jpg" alt="img"> </p>
+<p>##Upload</p>
+<p>点击upload进行上架，出现弹窗</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps13.jpg" alt="img"> </p>
+<p>再次点击Upload now，即可完成上架</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps14.jpg" alt="img"> </p>
+<p>后端返回该nft相关信息</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps15.jpg" alt="img"> </p>
+<p>利用id可在市场进行查询</p>
+<p>上架后恐龙进入在售状态</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps16.jpg" alt="img"> </p>
+<p>##Maing交配</p>
+<p>点击Mating按钮，可进行繁殖。这里添加了一些简单的卡面做测试</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps17.jpg" alt="img"> </p>
+<p>先选定一个卡面</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps18.jpg" alt="img"> </p>
+<p>当第二个卡面为异性时，则交配成功</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps19.jpg" alt="img"> </p>
+<p>后端返回蛋的信息</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps20.jpg" alt="img"> </p>
+<p>为同性则失败</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps21.jpg" alt="img"> </p>
+<p>##免费获取后不再能免费获取</p>
+<p>获取两个蛋后，个人信息页面就会变成这样。</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps22.jpg" alt="img"> </p>
+<p>下面的免费获取两个蛋变成去你的世界。</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps23.jpg" alt="img"> </p>
+<p>#市场Market</p>
+<p>我们可以通过页面顶部的导航Market去市场</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps24.jpg" alt="img"> </p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps25.jpg" alt="img"> </p>
+<p>市场页面可进行搜索和购买</p>
+<p>##搜索功能</p>
+<p>利用id搜索之前上架的恐龙</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps26.jpg" alt="img"> </p>
+<p>##购买</p>
+<p>点击buy按钮即可开始购买操作，但需要切换账户，因为同账户上传后不可点击购买。这里切换了账户。</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps27.jpg" alt="img"> </p>
+<p>再次确认即可完成交易</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps28.jpg" alt="img"> </p>
+<p>个人信息页面：</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps29.jpg" alt="img"> </p>
+<p>##市场均价视图</p>
+<p>市场页面下拉，我们准备了两个图来展示</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps30.jpg" alt="img"> </p>
+<p>##页面底部</p>
+<p>最下方有回到自己家园</p>
+<p><img src="file:///C:\Users\微风\AppData\Local\Temp\ksohtml26564\wps31.jpg" alt="img"> </p>
+
+    </div>
+</article>
+            </div>
+            <div class="aside">
+    
+        <div class="box widget">
+    <div class="introduction">
+        <p><img src="/images/1.jpg" alt="head-sculpture" /></p>
+        <p class="name">
+            尚龙泽
+        </p>
+        <p class="slogan">好风凭借力</p>
+    </div>
+</div>
+    
+        
+<div class="box widget">
+    <div class="title">最新</div>
+    <ul class="item-box">
+        
+            
+                <li><a href="/2024/06/15/%E6%81%90%E9%BE%99%E5%B7%A5%E5%8E%82%E9%A1%B9%E7%9B%AE%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA/">(no title)</a></li>
+            
+        
+            
+                <li><a href="/2023/12/22/%E6%9C%AA%E5%91%BD%E5%90%8D/">(no title)</a></li>
+            
+        
+            
+                <li><a href="/2023/12/22/hello-world/">Hello World</a></li>
+            
+        
+    </ul>
+</div>
+
+    
+        
+    
+        
+  <div class="box widget">
+    <div class="title">归档</div>
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/06/">2024-06</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/12/">2023-12</a><span class="archive-list-count">2</span></li></ul>
+  </div>
+
+    
+        
+    
+</div>
+        </section>
+        <footer class="footer">
+    <div class="global-width footer-box">
+        <div class="copyright">
+            <span>Copyright &copy; 2019</span>
+            <span class="dotted">|</span>
+            <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></span>
+            <span class="dotted">|</span>
+            <span>Theme by <a href="javascript:">Loren</a></span>
+            <span class="dotted">|</span>
+            <span><a target="_blank" rel="noopener" href="http://www.beian.miit.gov.cn">浙ICP备18016660号-1</a></span>
+        </div>
+    </div>
+</footer>
+    </div>
+
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
